@@ -9,8 +9,9 @@
   "scripts": {
     "start": "node start",
     "build": "node lib/build/generate-assets",
-    "serve": "node listen-on-port"
-    "test": "mocha test/unit/**/*.js"
+    "serve": "node listen-on-port",
+    "test": "mocha test/unit/**/*.js",
+    "test-ui": "gulp --gulpfile gulpfile-ui.js ui"
   },
   "dependencies": {
     "acorn": "^8.5.0",
